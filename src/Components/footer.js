@@ -15,7 +15,12 @@ export class Footer extends React.Component{
     */}
     
     
-    <h1>My Footer in another component</h1></div>
+    <h1>My Footer in another component</h1>
+    
+    
+    
+    </div>
+    
         );
     }
 }

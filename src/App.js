@@ -5,6 +5,9 @@ import { Header } from './Components/header';
 import { Footer } from './Components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
+import {Read} from './Components/read';
+import { Books } from './Components/books';
+import  {Create} from './Components/create';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import {
@@ -37,8 +40,8 @@ class App extends React.Component {
     */}
         <Routes>
           <Route path ='/' element={<Content />}></Route>
-          <Route path ='/read' element={<Header />}/>
-          <Route path ='/create' element={<Footer />}/>
+          <Route path ='/read' element={<Read />}></Route>
+          <Route path ='/create' element={<Create />}></Route>
         </Routes>
 
 
