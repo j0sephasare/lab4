@@ -42,6 +42,7 @@ onChangeBookCover(e){
             cover:this.state.cover,
             author:this.state.author
         }
+        //takes in data to be used 
         axios.post('http://localhost:4000/api/books',book)
         .then()
         .catch();
